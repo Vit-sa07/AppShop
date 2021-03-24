@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Admin.AdminCategoryActivity">
+
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите категорию"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/first_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/slogan">
+
+        <ImageView
+            android:id="@+id/oblicovachnyi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/oblicovachnyi"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+
+        <ImageView
+            android:id="@+id/polno"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/polno"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+
+        <ImageView
+            android:id="@+id/giperpress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/giperpress"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/first_line">
+
+        <ImageView
+            android:id="@+id/barrum"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/barrum"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+
+        <ImageView
+            android:id="@+id/lsr"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/lsr"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+
+        <ImageView
+            android:id="@+id/jkp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/jkp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/slogan"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

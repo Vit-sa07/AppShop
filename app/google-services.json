@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "707997457598",
+    "project_id": "stroykirpichrf",
+    "storage_bucket": "stroykirpichrf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707997457598:android:f5cad2b4cc102955b792ef",
+        "android_client_info": {
+          "package_name": "stroykirpich.rf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707997457598-q699in21vbbkcms9ai7ephguduj63370.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stroykirpich.rf",
+            "certificate_hash": "b19f9abf67ac3955c8ff89a49360e4399b56033e"
+          }
+        },
+        {
+          "client_id": "707997457598-24kmls1ds3db0bgtoecgi56cmo68b44a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcAeEBREfle-ZDOM_TguNXj0dp2lJnMOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707997457598-24kmls1ds3db0bgtoecgi56cmo68b44a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
